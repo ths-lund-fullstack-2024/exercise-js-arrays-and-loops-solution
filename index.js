@@ -31,3 +31,13 @@ for (const w of words) {
   const numberOfCharacters = w.length;
   console.log(`#29. Word: ${w}. It has ${numberOfCharacters} characters.`);
 }
+
+// #30. Använd words-arrayen ovan och en for-loop för att bygga en ny sträng som består av de första bokstäverna i varje ord. Logga ut den nya strängen.
+
+let newStr = "";
+
+for (const word of words) {
+  newStr += word[0];
+}
+
+console.log(`#30. ${newStr}`);
